@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Resize</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero.jpg" alt="Workspace" class="hero-image" />
+    <h2>Your Digital Partner</h2>
+    <p>Professional services at your fingertips.</p>
+    <a href="#about" class="btn">Learn More</a>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="intro" id="about">
+    <h3>Who We Are</h3>
+    <div class="intro-content">
+      <img src="images/team.jpg" alt="Our Team" class="intro-image" />
+      <p>We deliver world-class digital solutions tailored to your needs.</p>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h3>Our Services</h3>
+    <div class="feature-grid">
+      <div class="feature">
+        <img src="images/design.png" alt="Web Design" />
+        <h4>Web Design</h4>
+        <p>Stunning websites that make an impact.</p>
+      </div>
+      <div class="feature">
+        <img src="images/dev.png" alt="Development" />
+        <h4>Development</h4>
+        <p>Robust and scalable web applications.</p>
+      </div>
+      <div class="feature">
+        <img src="images/seo.png" alt="SEO" />
+        <h4>SEO</h4>
+        <p>Boost your online visibility and rankings.</p>
+      </div>
+    </div>
+  </section>
+
+  <button onclick="shrinkImages()">Shrink Images</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
